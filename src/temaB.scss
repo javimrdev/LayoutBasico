@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&family=Roboto:ital,wght@0,100;1,100&display=swap');
+$font: 'Open Sans',
+sans-serif;
+.base {
+    background-color: blue;
+}
+
+.important {
+    background-color: #29337A;
+}
+
+.warning {
+    background-color: aqua;
+}
+
+.container-2>.box {
+    border-radius: 8%;
+}
+
+.box-with-shadow {
+    box-shadow: 10px 10px 10px gray;
+}
+
+.principal-font {
+    font-family: $font;
+}
+
+.secondary-font {
+    font-family: $font;
+    font-style: italic;
+}

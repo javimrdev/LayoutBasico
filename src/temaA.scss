@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap');
+$font: 'Roboto',
+sans-serif;
+.base {
+    background-color: red;
+}
+
+.important {
+    background-color: #9F3018;
+}
+
+.warning {
+    background-color: #DE9F92;
+}
+
+.container-2>.box {
+    border-radius: 2%;
+}
+
+.box-with-shadow {
+    box-shadow: -10px 10px 10px gray;
+}
+
+.principal-font {
+    font-family: $font;
+}
+
+.secondary-font {
+    font-family: $font;
+    font-style: italic;
+}
